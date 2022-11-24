@@ -1,0 +1,6 @@
+// Get Elements by Tagname
+
+var li=document.getElementsByTagName('li');
+li[2].textContent='new changes';
+li[2].style.fontWeight='bold';
+li[1].style.backgroundColor='red'
